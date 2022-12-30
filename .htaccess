@@ -1,0 +1,7 @@
+ErrorDocument 404 /error-page.html
+
+RewriteEngine on
+RewriteRule strona główna index.html
+RewriteRule kontakt-z-nami kontakt.html
+RewriteRule Ciekawe-zapowiedzi-filmowe-na-rok-2023 filmy2023.html
+RewriteRule troche-o-nas o-nas.html
