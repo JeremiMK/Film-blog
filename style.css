@@ -160,9 +160,9 @@ footer {
   }
 
 	.article_content {
-	width: 350px;
-	margin-left: 75px;
-	margin-right: 75px;
+	width: 325px;
+	margin-left: 97.5px;
+	margin-right: 97.5px;
 	margin-top: 25px;
 	margin-top: 15px;
 	font-size: 12px;
@@ -179,6 +179,10 @@ footer {
 	    transform: none;
 	  
   }
+  
+  .article_head {
+	justify-content: center;
+}
   
   nav {
 	  top:0px;
