@@ -150,15 +150,38 @@ footer {
 }
 
 @media all and (max-width: 500px) {
+	
   .article {
+	justify-content: center;
+	align-items: center;
     width: 500px;
+	  margin-bottom: 75px;
     flex-direction: column;
   }
 
+	.article_content {
+	width: 350px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 25px;
+	margin-top: 15px;
+	font-size: 12px;
+	}
+
   .article_image {
-    /* outline: 3px solid green; */
-    width: 57%;
-    min-height: 100 px;
-    aspect-ratio: 16 / 9;
+	margin-left: 75px;
+	margin-right: 75px;
+    width: 350px;
+    height: 50px;
   }
+  
+  .article_image:hover {
+	    transform: none;
+	  
+  }
+  
+  nav {
+	  top:0px;
+  }
+  
 }
